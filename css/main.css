@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+}
+.pg-label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.p-title,p{
+    color: #9ED5C5;
+    font-size: 30px;
+    font-weight:  bold;
+}
+p{
+    font-size: 16px;
+}
+.pg-input{
+    display: block;
+    border:1px solid #050505;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 5px;
+    width: 80%;
+    margin:10px auto;
+}
+.pg-input:hover{
+    box-shadow: 1px 1px 5px #AAA;
+}
+.cont{
+    background-color: #8EC3B0;
+    text-align: center;
+}
+.container{
+    color: #DEF5E5;
+}
+.container .row1{
+    padding: 20px;
+    border-top: 1px solid #6D9886;
+    border-bottom: 1px solid #6D9886;
+}
+.cont-btn{
+    background-color: #6D9886;
+    color: white;
+    border: 1px solid #6D9886;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+.cont-btn:hover{
+    box-shadow: 2px 8px 5px #999;
+    background-color: #9ED5C5;
+    border-color: #9ED5C5;
+}
+.t-r{
+    background: linear-gradient(#EEE,#FFF);
+}
+.pp-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #6D9886;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.btn1,.btn1:visited,.btn1:active{
+    background-color: #6D9886;
+    border: 1px solid #6D9886;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn1:hover{
+    box-shadow: 2px 8px 5px #999;
+    text-decoration: none;
+    background-color: #9ED5C5;
+    border-color: #9ED5C5;
+    color: #fff;
+}
+.btn2{
+    background-color: #6D9886;
+    border: 1px solid #6D9886;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: #9ED5C5;
+    border-color: #9ED5C5;
+    box-shadow: 2px 8px 5px #999;
+}
+#p1,#p2{
+    background-color: #ffb2b2;
+    color: #6d0000;
+    width: 30%;
+    margin:10px auto;
+    border: 1px solid #6d0000;
+    border-radius: 5px;
+    display: none;
+}
+@media all and (max-width:769px)
+{
+    .col-md-3{
+        width: 30%;
+    }
+    .col-md-9{
+        width: 70%;
+    }
+}
